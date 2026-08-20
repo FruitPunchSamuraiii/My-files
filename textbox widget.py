@@ -32,8 +32,8 @@ my_text = customtkinter.CTkTextbox(root,
                                     font=("Arial", 20),
                                     text_color="Black",
                                     wrap="char", #char wraps the character, word wraps the entire word, and none (gives a scroll bar)
-                                    activate_scrollbars= True #by default true, this is what scrolls when wrap is none
-                                    scrollbar_button_color="DarkBlue"
+                                    activate_scrollbars= True, #by default true, this is what scrolls when wrap is none
+                                    scrollbar_button_color="DarkBlue",
                                     scrollbar_button_hover_color="Silver"
                                    )
 my_text.pack(pady=20)
